@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:paddingStart="20dp"
+        android:background="@drawable/search_bar"
+        android:paddingLeft="20dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:paddingStart="20dp"
+        android:background="@drawable/search_bar"
+        android:paddingLeft="20dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:text="Create a new account ?"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:paddingStart="20dp"
+        android:background="@drawable/search_bar"
+        android:paddingLeft="20dp" />
+
+
+</LinearLayout>
